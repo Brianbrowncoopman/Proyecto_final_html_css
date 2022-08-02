@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 1px solid black;
+}
+
+body {
+  width: 100vw;
+  height: 170.25rem;
+  padding: 1%;
+  background-color: green;
+}
+
+.headder {
+  width: 100%;
+  height: 8%;
+  border-color: blue;
+  padding: 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 25.5rem;
+  height: 75%;
+  background-image: url("imagenes/logo.png");
+  background-repeat: no-repeat;
+}
+
+.indice {
+  width: 85%;
+  height: 22.5;
+  gap: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  
+}
+
+.box {
+  transition: box-shadow .3s;
+  width: 33%;
+  height: 3rem;
+  background-color: rgb(164, 9, 9);
+  border-radius: 20%;
+  text-align: center ;
+}
+
+.box:hover {
+  background-color: blue;
+  box-shadow: 4px 4px 4px 4px rgba(85, 21, 174, 0.2);
+}
+
+/*.a {
+  width: 8rem;
+  height: 3rem;
+}*/
+
+.section {
+  width: 100%;
+  height: 75%;
+  background-color: yellow;
+}
+
+.container1 {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.texto1 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.img1 {
+  width: 50%;
+  height: 100%;
+}
+
+.img2 {
+  width: 50%;
+  height: 100%;
+}
+
+.texto2 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.texto3 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.img3 {
+  width: 50%;
+  height: 100%;
+}
+
+.img4 {
+  width: 50%;
+  height: 100%;
+}
+
+.texto4 {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.footer {
+  width: 99%;
+  height: 12%;
+  background-color: cadetblue;
+}
