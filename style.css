@@ -7,15 +7,15 @@
 body {
   width: 100vw;
   height: 170.25rem;
-  padding: 1%;
-  background-color: green;
+  color: black;
+  /*background-color: green;*/
 }
 
 .headder {
-  width: 100%;
+  width: 100vw;
   height: 8%;
   border-color: blue;
-  padding: 1.5%;
+  /*padding: 1.5%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .indice {
-  width: 85%;
+  width: 85vw;
   height: 22.5;
   gap: 3rem;
   display: flex;
@@ -42,80 +42,104 @@ body {
   transition: box-shadow .3s;
   width: 33%;
   height: 3rem;
-  background-color: rgb(164, 9, 9);
+  background-color: rgb(225, 153, 36);
   border-radius: 20%;
   text-align: center ;
 }
 
 .box:hover {
   background-color: blue;
-  box-shadow: 4px 4px 4px 4px rgba(85, 21, 174, 0.2);
+  box-shadow: 8px 8px 8px 8px rgba(4, 246, 44, 0.797);
 }
 
-/*.a {
-  width: 8rem;
-  height: 3rem;
-}*/
-
 .section {
-  width: 100%;
+  width: 100vw;
   height: 75%;
   background-color: yellow;
 }
 
 .container1 {
-  width: 100%;
+  width: 100vw;
   height: 25%;
   display: flex;
   flex-direction: row;
 }
 
 .texto1 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
   background-color: blue;
 }
 
 .img1 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
+  background-image: url(imagenes/equipo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img2 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
+  background-image: url(imagenes/productos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .texto2 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
   background-color: blue;
 }
 
 .texto3 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
   background-color: blue;
 }
 
 .img3 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
+  background-image: url(imagenes/camiones1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img4 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
+  background-image: url(imagenes/siembra2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .texto4 {
-  width: 50%;
+  width: 50vw;
   height: 100%;
   background-color: blue;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.texto__box4 {
+  width: 47vw;
+  height: 95%;
+  background-color: brown;
+}
+
+.form {
+  width: 25vw;
+  height: 13rem;
+  
+  background-color: blueviolet;
+  border-radius: 10%;
 }
 
 .footer {
-  width: 99%;
+  width: 100vw;
   height: 12%;
   background-color: cadetblue;
 }
