@@ -7,8 +7,6 @@
 body {
   width: 100vw;
   height: 170.25rem;
-  /*color: black;*/
-  /*background-color: green;*/
   background-image: url("imagenes/fondo-6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,8 +15,6 @@ body {
 .headder {
   width: 100vw;
   height: 8%;
-  /*border-color: blue;*/
-  /*padding: 1.5%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,14 +29,12 @@ body {
 
 .indice {
   width: 85vw;
-  height: 22.5;
+  height: 22.5%;
   gap: 3rem;
   display: flex;
   flex-direction: row;
   align-items:center;
   text-align: center;
-  
-  
 }
 
 .box {
@@ -54,7 +48,6 @@ body {
   text-align: center;
   font-size: larger;
   padding-top: 0.0%;
-
 }
 
 .box:hover {
@@ -65,7 +58,6 @@ body {
 .section {
   width: 100vw;
   height: 75%;
- /* background-color: yellow;*/
 }
 
 .container1 {
@@ -78,12 +70,10 @@ body {
 .texto1 {
   width: 50vw;
   height: 100%;
-  /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-
 }
 
 h2 {
@@ -135,7 +125,6 @@ p {
 .texto2 {
   width: 49vw;
   height: 100%;
-  /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,17 +182,13 @@ p {
 .texto4 {
   width: 49vw;
   height: 100%;
-  /*background-color: blue;*/
   align-items: center;
   text-align: center;
-  
-  
 }
 
 .texto__box4 {
   width: 47vw;
   height: 95%;
-  /*background-color: brown;*/
   display: flex;
   flex-direction: column;
 }
@@ -212,7 +197,6 @@ p {
   width: 47vw;
   height: 10%;
   color: rgb(21, 96, 20);
-  /*background-color: darkgoldenrod;*/
 }
 
 .p4 {
@@ -237,6 +221,81 @@ p {
 
 .footer {
   width: 100vw;
-  height: 12%;
-  /*background-color: cadetblue;*/
+  height: 17%;
+}
+
+.container__footer {
+  width: 99%;
+  height: 40%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img__footer {
+  width: 40%;
+  height: 100%;
+  background-image:  url("imagenes/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box__footer {
+  width: 60%;
+  height: 100%;
+  margin-top: 11%;
+  text-align:right;
+  font-size: 1.5rem; 
+}
+
+@media (max-width: 700px) {
+  
+  .headder {
+    width: 100vw;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 25.5rem;
+    height: 75%;
+    background-image: url("imagenes/logo.png");
+    background-repeat: no-repeat;
+  }
+  
+  .indice {
+    width: 85vw;
+    height: 60.5%;
+    gap: rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+  }
+
+  .box {
+    transition: box-shadow .3s;
+    width: 50%;
+    height: 1.8rem;
+    text-align: center;
+    font-size: larger;
+    padding-top: 0.0%;
+  }
+
+  .section {
+    width: 100vw;
+    height: 85%;
+  }
+
+  .footer {
+    width: 100vw;
+    height: 3%;
+  }
+
+  .img__footer {
+    width: 0%;
+    height: 0%;
+  }
+
 }
