@@ -1,20 +1,23 @@
 *{
   padding: 0;
   margin: 0;
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
 }
 
 body {
   width: 100vw;
   height: 170.25rem;
-  color: black;
+  /*color: black;*/
   /*background-color: green;*/
+  background-image: url("imagenes/fondo-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headder {
   width: 100vw;
   height: 8%;
-  border-color: blue;
+  /*border-color: blue;*/
   /*padding: 1.5%;*/
   display: flex;
   flex-direction: column;
@@ -44,9 +47,10 @@ body {
   transition: box-shadow .3s;
   width: 33%;
   height: 1.8rem;
-  background-color: rgb(47, 150, 59);
-  border: 1px rgb(0, 80, 0);
-  border-radius: 9%;
+  background-color: rgb(47, 212, 6);
+  border: 2px solid rgb(2, 47, 2);
+  color: rgb(0, 6, 0);
+  border-radius: 18%;
   text-align: center;
   font-size: larger;
   padding-top: 0.0%;
@@ -61,7 +65,7 @@ body {
 .section {
   width: 100vw;
   height: 75%;
-  background-color: yellow;
+ /* background-color: yellow;*/
 }
 
 .container1 {
@@ -74,7 +78,7 @@ body {
 .texto1 {
   width: 50vw;
   height: 100%;
-  background-color: blue;
+  /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +90,7 @@ h2 {
   width: 45vw;
   height: 15%;
   padding: 1%;
-  background-color: rgb(68, 84, 112);
+  color: rgb(21, 96, 20);
   font-size: 3rem;
 }
 
@@ -94,14 +98,21 @@ p {
   width: 45vw;
   height: 350px;
   padding: 1%;
-  background-color: rgb(68, 84, 112);
+  color: rgb(21, 96, 20);
   font-size: 1.8rem;
 }
 
 .img1 {
   width: 49vw;
   height: 100%;
-  background-image: url(imagenes/equipo1.jpg);
+  background-image: url(imagenes/equipotrabajo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1.5s ease-in-out;
+}
+
+.img1:hover {
+  background-image: url(imagenes/equipotrabajo3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,12 +123,19 @@ p {
   background-image: url(imagenes/productos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 1.5s ease-in-out;
+}
+
+.img2:hover {
+  background-image: url(imagenes/parsley-4688651__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .texto2 {
   width: 49vw;
   height: 100%;
-  background-color: blue;
+  /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,7 +146,6 @@ p {
   height: 350px;
   padding: 1%;
   margin: 6.25%;
-  background-color: rgb(208, 58, 163);
   font-size: 1.5rem;
   align-items: center;
 }
@@ -136,17 +153,24 @@ p {
 .texto3 {
   width: 50vw;
   height: 100%;
-  background-color: blue;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  
 }
 
 .img3 {
   width: 49vw;
   height: 100%;
   background-image: url(imagenes/camiones1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1.5s ease-in-out;
+}
+
+.img3:hover {
+  background-image: url(imagenes/bodega.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -157,12 +181,19 @@ p {
   background-image: url(imagenes/siembra2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 1.5s ease-in-out;
+}
+
+.img4:hover {
+  background-image: url(imagenes/cosecha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .texto4 {
   width: 49vw;
   height: 100%;
-  background-color: blue;
+  /*background-color: blue;*/
   align-items: center;
   text-align: center;
   
@@ -172,7 +203,7 @@ p {
 .texto__box4 {
   width: 47vw;
   height: 95%;
-  background-color: brown;
+  /*background-color: brown;*/
   display: flex;
   flex-direction: column;
 }
@@ -180,7 +211,8 @@ p {
 .h2_4 {
   width: 47vw;
   height: 10%;
-  background-color: darkgoldenrod;
+  color: rgb(21, 96, 20);
+  /*background-color: darkgoldenrod;*/
 }
 
 .p4 {
@@ -188,22 +220,23 @@ p {
   height: 50px;
   padding: 1%;
   margin: 6.25%;
-  background-color: rgb(208, 58, 163);
+  color: rgb(21, 96, 20);
   font-size: 1.5rem;
   align-items: center;
 }
 
 .form {
-  width: 30vw;
-  height: 20rem;
-  margin-left: 20%;
-  
-  background-color: blueviolet;
+  width: 25vw;
+  height: 22rem;
+  margin-left: 23%;
+  border: 2px solid rgb(19, 79, 19);
+  background-color: rgb(18, 197, 18);
   border-radius: 10%;
+  box-shadow: 4px 4px 4px 10px rgba(89, 150, 42, 0.797);
 }
 
 .footer {
   width: 100vw;
   height: 12%;
-  background-color: cadetblue;
+  /*background-color: cadetblue;*/
 }
