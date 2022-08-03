@@ -35,21 +35,27 @@ body {
   display: flex;
   flex-direction: row;
   align-items:center;
+  text-align: center;
+  
   
 }
 
 .box {
   transition: box-shadow .3s;
   width: 33%;
-  height: 3rem;
-  background-color: rgb(225, 153, 36);
-  border-radius: 20%;
-  text-align: center ;
+  height: 1.8rem;
+  background-color: rgb(47, 150, 59);
+  border: 1px rgb(0, 80, 0);
+  border-radius: 9%;
+  text-align: center;
+  font-size: larger;
+  padding-top: 0.0%;
+
 }
 
 .box:hover {
-  background-color: blue;
-  box-shadow: 8px 8px 8px 8px rgba(4, 246, 44, 0.797);
+  background-color: rgb(65, 202, 97);
+  box-shadow: 4px 4px 4px 4px rgba(142, 250, 54, 0.797);
 }
 
 .section {
@@ -69,10 +75,31 @@ body {
   width: 50vw;
   height: 100%;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+h2 {
+  width: 45vw;
+  height: 15%;
+  padding: 1%;
+  background-color: rgb(68, 84, 112);
+  font-size: 3rem;
+}
+
+p {
+  width: 45vw;
+  height: 350px;
+  padding: 1%;
+  background-color: rgb(68, 84, 112);
+  font-size: 1.8rem;
 }
 
 .img1 {
-  width: 50vw;
+  width: 49vw;
   height: 100%;
   background-image: url(imagenes/equipo1.jpg);
   background-repeat: no-repeat;
@@ -88,19 +115,36 @@ body {
 }
 
 .texto2 {
-  width: 50vw;
+  width: 49vw;
   height: 100%;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.p2 {
+  width: 42vw;
+  height: 350px;
+  padding: 1%;
+  margin: 6.25%;
+  background-color: rgb(208, 58, 163);
+  font-size: 1.5rem;
+  align-items: center;
 }
 
 .texto3 {
   width: 50vw;
   height: 100%;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .img3 {
-  width: 50vw;
+  width: 49vw;
   height: 100%;
   background-image: url(imagenes/camiones1.jpg);
   background-repeat: no-repeat;
@@ -116,11 +160,12 @@ body {
 }
 
 .texto4 {
-  width: 50vw;
+  width: 49vw;
   height: 100%;
   background-color: blue;
   align-items: center;
   text-align: center;
+  
   
 }
 
@@ -128,11 +173,30 @@ body {
   width: 47vw;
   height: 95%;
   background-color: brown;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2_4 {
+  width: 47vw;
+  height: 10%;
+  background-color: darkgoldenrod;
+}
+
+.p4 {
+  width: 42vw;
+  height: 50px;
+  padding: 1%;
+  margin: 6.25%;
+  background-color: rgb(208, 58, 163);
+  font-size: 1.5rem;
+  align-items: center;
 }
 
 .form {
-  width: 25vw;
-  height: 13rem;
+  width: 30vw;
+  height: 20rem;
+  margin-left: 20%;
   
   background-color: blueviolet;
   border-radius: 10%;
